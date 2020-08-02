@@ -1,0 +1,103 @@
+/* Global Styles */
+
+body {
+  color: #252525;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  height: 100vh;
+}
+
+.container{
+  padding-top: 30px;
+  max-width: 900px;
+}
+
+.divider {
+  margin: 2rem 0;
+  background-color: white;
+}
+
+.footer {
+  background-color: rgb(12, 11, 11);
+  font-size: 13px;
+  height: 70px;
+}
+
+
+/* Typography */
+
+p {
+  font-size: 16px;
+}
+
+
+/* HyperLinks */
+
+main a:hover {
+  text-decoration: none;
+}
+
+
+.footer a:hover {
+  color: #ffe566;
+}
+
+.footer a {
+  color: #ffd700;
+}
+
+/* Social Icons */
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 3px;
+  padding-left: 3px;
+  margin-bottom: 10px;
+}
+
+.social-icons .fab {
+  font-size: 1.8em;
+}
+
+.social-icons .fab {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFF;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fab{ 
+  border-radius: 50%;
+}
+
+.social-icons .fab:hover, .social-icons .fab:active {
+  color: #FFF;
+  -webkit-box-shadow: 1px 1px 3px #333;
+  -moz-box-shadow: 1px 1px 3px #333;
+  box-shadow: 1px 1px 3px #333; 
+}
+ 
+.social-icons .fa-facebook,.social-icons .fa-facebook-f,.social-icons .fa-facebook-square{background-color:#3C599F;}  
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;} 
+.social-icons .fa-instagram{background-color:#A1755C;}
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-in{background-color:#0085AE;} 
+.social-icons .fa-stack-overflow{background-color:#FF7300;}
+.social-icons .fa-tumblr,.social-icons .fa-tumblr-square{background-color:#314E6C;}
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;}
+.social-icons .fa-vk{background-color:#375474;}
+.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
+.social-icons .fa-reddit, .social-icons .fa-reddit-alien{background-color:#FF4500;}
+.social-icons .fa-telegram,.social-icons .fa-telegram-plane{background-color:#0088CC;}
+.fa-twitter {color:#32CCFE;}
